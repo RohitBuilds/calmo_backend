@@ -1,0 +1,13 @@
+from sqlalchemy import create_engine
+from sqlalchemy.orm import sessionmaker,declarative_base
+from src.utils.setting import settings 
+Base=declarative_base()
+engine=create_engine(url=settings.DB_CONNECTION )
+session=sessionmaker(bind=engine)
+
+def get_db():
+    db=session()
+    try:
+        yield db
+    finally:
+        db.close()

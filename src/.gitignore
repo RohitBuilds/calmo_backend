@@ -1,0 +1,13 @@
+CALMO_BACKEND/.env
+CALMO_BACKEND/.env.local
+CALMO_BACKEND/.env.development
+CALMO_BACKEND/.env.test
+CALMO_BACKEND/.env.production
+CALMO_BACKEND/node_modules
+CALMO_BACKEND/dist
+CALMO_BACKEND/build
+CALMO_BACKEND/.next
+CALMO_BACKEND/.cache
+CALMO_BACKEND/.vscode
+CALMO_BACKEND/.idea
+CALMO_BACKEND/.DS_Store 

@@ -1,0 +1,56 @@
+# FastAPI core
+fastapi
+uvicorn[standard]
+
+# Database (PostgreSQL)
+sqlalchemy>=2.0
+psycopg[binary]        # ✅ use this instead of psycopg2-binary
+alembic
+
+# Pydantic (compatible with 3.13)
+pydantic>=2.8
+pydantic-settings
+
+# JWT (PyJWT)
+PyJWT
+
+# Password hashing
+passlib[bcrypt]
+bcrypt
+
+# Request handling
+python-multipart
+
+# Environment variables
+python-dotenv
+
+# Async DB
+asyncpg
+
+# Utilities
+httpx
+loguru
+
+pwdlib
+ # =========================
+# AI (MISTRAL)
+# =========================
+mistralai
+mistralai==0.4.2
+
+# =========================
+# MACHINE LEARNING
+# =========================
+scikit-learn
+pandas
+numpy
+scipy
+joblib
+
+# =========================
+# DATA VISUALIZATION
+# =========================
+matplotlib
+seaborn
+
+psycopg2-binary
